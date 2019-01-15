@@ -43,6 +43,7 @@ el arreglo con las festividades en el rango establecido.
 
 
 ------------Clases Enero,Febrero...Diciembre ...FiestasVarias------------------
+
 Estas clases muestran un combobox con las festividades en ese mes (en caso 
 de Fiestas Varias en el rango establecido)
 Y muestran una imagen con el calendario y despliega una imagen de acuerdo 
@@ -50,6 +51,7 @@ a la festividad seleccionada
 
 
 -----------------Global Calendar--------------------------------------
+
 Esta es la clase principal debido a que en ella tenemos una cuadricula
 con imagebuttons, cada boton corresponde a la clase Enero, Febrero,...
 Cuando surge el evento, en la accion se encarga de hacerlo visible.
@@ -57,6 +59,7 @@ También se tiene hasta abajo un boton que desplegara a Listholidays
 
 
 ----------------------Mes-------------------------------------------
+
 Esta clase cuenta con los metodos getImagenes, getefemerides, getfechas.
 Estas regresan un arreglo con los datos correspondientes que se obtienen
 de un arreglo de objetos Holiday. Estos arreglos se utilizan en las clases
